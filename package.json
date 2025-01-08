@@ -1,0 +1,20 @@
+{
+  "name": "discord_random_image",
+  "version": "1.0.0",
+  "description": "Regularly sends a random image to Discord from a folder using cronjob",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Filip P.",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "form-data": "^4.0.1",
+    "mime-types": "^2.1.35",
+    "node-cron": "^3.0.3",
+    "openai": "^4.77.3"
+  }
+}
